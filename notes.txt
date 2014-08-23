@@ -1,3 +1,26 @@
+------
+2014-08-23
+including spritify.py.. 
+
+the generator is triggered automatically every time the render.animation button is pressed.
+-it runs over the .png files rendered to the root folder. 
+-it produces a sprites.gif and sprites.png
+
+idea: 
+write a simple python script with a list of all the required sprites, including for each one:
+-name
+-frame ini
+-frame end
+-frameskip 
+- camera to use? angle for the camera? parent object for the camera?
+
+for each required script, set the properties.render window attributes, and fire the render.anim button.
+after that, copy and rename the sprites.gif and sprites.png to a final folder with the name of the desired anim.
+finally, delete all the temporal pngs in order to prepare things for the next iteration. 
+
+
+------
 render the current frame to a unnamed .png file 
 bpy.ops.render.render(write_still = True)
+
 
