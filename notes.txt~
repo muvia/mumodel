@@ -1,0 +1,3 @@
+render the current frame to a unnamed .png file 
+bpy.ops.render.render(write_still = True)
+
